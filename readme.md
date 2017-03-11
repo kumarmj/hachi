@@ -19,12 +19,12 @@ PHP MVC Web Application which uses GitHub API and provide given features
      - Perform Query Return Search Results
  - Search View: home page
  - **Profile Query**
- - 
+ 
         `curl -i https://api.github.com/search/users?q=$(email)`
  - searches language developers
- - 
+ 
         `curl -i https://api.github.com/search/users?q=+language:$(lang)&sort=followers`
  - **Something Awesome**
- - 
+ 
         `curl -i https://api.github.com/search/users?q=+location:$(city)&sort=followers`
 

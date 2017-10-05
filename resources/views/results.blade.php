@@ -60,6 +60,8 @@
             
             .result .card-content {
               color: rgba(0, 0, 0, 0.87);
+              width: 30%;
+              height: auto;
             }
             
             .searchmatch {
